@@ -1,4 +1,1 @@
-# Gitting Started Class
-
-# Team Members
-- Mango Tango
+# "Gitting" Started Class
