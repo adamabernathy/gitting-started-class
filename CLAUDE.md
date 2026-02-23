@@ -12,10 +12,28 @@ This is a teaching repository for the "Gitting Started" class — used to practi
 - `README.md` — Minimal project title only.
 - `.gitignore` — Python-oriented gitignore (standard GitHub template).
 
-## Workflow Convention
+## GitHub Issues Workflow
 
-Changes to `team.md` are made via feature branches and pull requests, following this pattern observed in the commit history:
+When working on a GitHub issue:
 
-1. Create a branch named for the change (e.g., `issue-2-add-dallas-alice`)
-2. Add the team member name as a list item in `team.md`
-3. Open a PR into `main` with a descriptive commit message (e.g., `Add [Name] to team roster`)
+1. **Create a branch** named `Issue-N` where `N` is the issue number before starting any work.
+
+   ```sh
+   git checkout -b Issue-N
+   ```
+
+2. **Work on the issue** on that branch.
+
+3. **Tag the issue** at the bottom of every commit message related to the issue:
+
+   ```sh
+   Closes #N
+   ```
+
+   Example commit message:
+
+   ```sh
+   Fix license expiration validation logic
+
+   Closes #42
+   ```
