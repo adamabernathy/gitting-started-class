@@ -2,3 +2,4 @@
 
 - Mango Tango
 - Adam Abernathy
+- Rinaldi
